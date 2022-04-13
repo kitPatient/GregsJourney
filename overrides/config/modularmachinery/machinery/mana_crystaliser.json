@@ -1,5 +1,5 @@
 {
-    "registryname": "mana_crystalisera",
+    "registryname": "mana_crystaliser",
     "localizedname": "Mana Crystaliser",
     "requires-blueprint": true,
     "color": "cbcf7e",
@@ -81,7 +81,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockoutputbus@0"
+                "modularmachinery:blockfluidoutputhatch@0"
             ]
         },
         {

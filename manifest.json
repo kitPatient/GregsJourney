@@ -10,14 +10,9 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Sussy GregJourney",
+  "name": "Generic Greg Pack",
   "author": "",
   "files": [
-    {
-      "projectID": 238222,
-      "fileID": 3040523,
-      "required": true
-    },
     {
       "projectID": 271740,
       "fileID": 2707353,
