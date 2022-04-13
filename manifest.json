@@ -1,0 +1,147 @@
+{
+    "minecraft": {
+        "version": "1.12.2",
+        "modLoaders": [
+            {
+            "id": "forge-14.23.5.2860",
+            "primary": true
+            }
+        ]
+    },
+    "manifestType": "minecraftModpack",
+    "overrides": "overrides",
+    "manifestVersion": 1,
+    "version": "1.0",
+    "author": "GregTech Community Pack Dev Team",
+    "externalDeps":[
+    ],
+    "name": "GregTech Community Pack",
+    "files":[
+        {
+            "projectID": 557549,
+            "fileID": 3568778,
+            "required": true
+        },
+        {
+            "projectID": 461660,
+            "fileID": 3251426,
+            "required": true
+        },
+        {
+            "projectID": 248787,
+            "fileID": 2987247,
+            "required": true
+        },
+        {
+            "projectID": 256717,
+            "fileID": 2666198,
+            "required": true
+        },
+        {
+            "projectID": 250398,
+            "fileID": 3025548,
+            "required": true
+        },
+        {
+            "projectID": 267602,
+            "fileID": 2915363,
+            "required": true
+        },
+        {
+            "projectID": 252848,
+            "fileID": 2893527,
+            "required": true
+        },
+        {
+            "projectID": 223852,
+            "fileID": 2952606,
+            "required": true
+        },
+        {
+            "projectID": 239197,
+            "fileID": 3478825,
+            "required": true
+        },
+        {
+            "projectID": 235279,
+            "fileID": 2915375,
+            "required": true
+        },
+        {
+            "projectID": 242818,
+            "fileID": 2779848,
+            "required": true
+        },
+        {
+            "projectID": 225839,
+            "fileID": 2469364,
+            "required": true
+        },
+        {
+            "projectID": 285612,
+            "fileID": 3133651,
+            "required": true
+        },
+        {
+            "projectID": 250832,
+            "fileID": 2845365,
+            "required": true
+        },
+        {
+            "projectID": 227083,
+            "fileID": 2518667,
+            "required": true
+        },
+        {
+            "projectID": 250419,
+            "fileID": 2898966,
+            "required": true
+        },
+        {
+            "projectID": 513857,
+            "fileID": 3456984,
+            "required": true
+        },
+        {
+            "projectID": 288885,
+            "fileID": 2838777,
+            "required": true
+        },
+        {
+            "projectID": 283644,
+            "fileID": 2694382,
+            "required": true
+        },
+        {
+            "projectID": 314904,
+            "fileID": 2819669,
+            "required": true
+        },
+        {
+            "projectID": 223094,
+            "fileID": 2923460,
+            "required": true
+        },
+        {
+            "projectID": 298187,
+            "fileID": 3005950,
+            "required": true
+        },
+        {
+            "projectID": 264353,
+            "fileID": 2508268,
+            "required": true
+        },
+        {
+            "projectID": 254268,
+            "fileID": 3051236,
+            "required": true
+        },
+        {
+            "projectID": 278494,
+            "fileID": 3327893,
+            "required": true,
+            "clientOnly": true
+        }
+    ]
+}
