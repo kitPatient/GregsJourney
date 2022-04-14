@@ -14,4 +14,11 @@ var terrasteel_parts = ["dust", "gear", "plate", "nugget", "beam", "bolt"] as st
 
 //Terrasteel Builder
 var terrasteel = MaterialSystem.getMaterialBuilder().setName("Terrasteel").setColor(23014937).build();
-modularium.registerParts(terrasteel_parts);
+terrasteel.registerParts(terrasteel_parts);
+
+//TerrasteelBase Parts To Build
+var terrasteelBase_parts = ["dust"] as string[];
+
+//TerrasteelBase Builder
+var terrasteelBase = MaterialSystem.getMaterialBuilder().setName("Terrasteel Base").setColor(23014937).build();
+terrasteelBase.registerParts(terrasteelBase_parts);
