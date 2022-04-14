@@ -1,8 +1,8 @@
 import mods.gregtech.recipe.RecipeMap;
 
-val alloySmelter = RecipeMap.getByName("steam_turbine");
+val manaSteam = RecipeMap.getByName("steam_turbine");
 
-alloySmelter.recipeBuilder()
+manaSteam.recipeBuilder()
 .fluidInputs(<liquid:crystalized_mana> * 32)
 .duration(40)
 .EUt(32)
