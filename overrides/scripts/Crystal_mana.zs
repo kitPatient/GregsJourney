@@ -5,4 +5,3 @@ val mana = mods.modularmachinery.RecipeBuilder.newBuilder("Crystal Mana Recepie"
 mana.addManaInput(50);
 mana.addFluidOutput(<liquid:crystalized_mana> * 50);
 mana.build();
-
