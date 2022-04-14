@@ -1,4 +1,4 @@
-//Remove Original Petal Apothecary Recipie
+//Remove Original Petal Apothecary Recipe
 recipes.remove(<botania:altar:0>);
 
 

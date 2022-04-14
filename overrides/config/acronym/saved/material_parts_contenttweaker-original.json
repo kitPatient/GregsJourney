@@ -1,0 +1,16 @@
+{
+  "materialMappings": {
+    "terrasteel_bolt": 10,
+    "modularium_bolt": 5,
+    "modularium_nugget": 3,
+    "modularium_plate": 2,
+    "modularium_dust": 0,
+    "terrasteel_plate": 8,
+    "terrasteel_gear": 7,
+    "modularium_gear": 1,
+    "terrasteel_nugget": 9,
+    "terrasteel_base_dust": 11,
+    "modularium_beam": 4,
+    "terrasteel_dust": 6
+  }
+}
