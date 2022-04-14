@@ -18,4 +18,5 @@ recipes.addShaped("Petal_Apothecary", apothecary,
   [null,cobblestone,null],
   [cobblestone,cobblestone,cobblestone]]);
 //Add New Modularium Dust Recipe
-mods.botania.Apothecary.addRecipe(modulariumDust, [clayDust, flintDust, ironDust]);
+//Old Modularium Dust Recipe
+//mods.botania.Apothecary.addRecipe(modulariumDust, [clayDust, flintDust, ironDust]);
