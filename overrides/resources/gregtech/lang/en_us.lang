@@ -1,0 +1,6 @@
+
+recipemap.steam_turbine.name=Mana Fuels
+
+gregtech.machine.steam_turbine.lv.name=Basic Mana Turbine
+gregtech.machine.steam_turbine.mv.name=Advanced Mana Turbine
+gregtech.machine.steam_turbine.hv.name=Turbo Mana Turbine
