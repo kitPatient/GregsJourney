@@ -10,7 +10,7 @@ var modularium = MaterialSystem.getMaterialBuilder().setName("Modularium").setCo
 modularium.registerParts(modulaium_parts);
 
 //Terrasteel Parts To Build
-var terrasteel_parts = ["dust", "gear", "plate", "nugget", "beam", "bolt"] as string[];
+var terrasteel_parts = ["dust", "gear", "plate", "nugget", "bolt"] as string[];
 
 //Terrasteel Builder
 var terrasteel = MaterialSystem.getMaterialBuilder().setName("Terrasteel").setColor(2359040).build();
