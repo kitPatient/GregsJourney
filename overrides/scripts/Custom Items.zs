@@ -20,5 +20,5 @@ terrasteel.registerParts(terrasteel_parts);
 var terrasteelBase_parts = ["dust"] as string[];
 
 //TerrasteelBase Builder
-var terrasteelBase = MaterialSystem.getMaterialBuilder().setName("Terrasteel Base").setColor(23014937).build();
+var terrasteelBase = MaterialSystem.getMaterialBuilder().setName("Terrasteel Base").setColor(23011067).build();
 terrasteelBase.registerParts(terrasteelBase_parts);
