@@ -7,3 +7,6 @@ manaSteam.recipeBuilder()
 .duration(40)
 .EUt(32)
 .buildAndRegister();
+
+// Distilled Water * 4
+<recipemap:steam_turbine>.findRecipe(-32, null, [<liquid:steam> * 640]).remove();
