@@ -32,3 +32,6 @@ recipes.addShaped("Petal_Apothecary", apothecary,
 //Add New Modularium Dust Recipe
 //Old Modularium Dust Recipe
 //mods.botania.Apothecary.addRecipe(modulariumDust, [clayDust, flintDust, ironDust]);
+
+mods.botania.ManaInfusion.addInfusion(<gregtech:meta_ingot:32027>, <gregtech:meta_ingot:324>, 1200);
+mods.botania.ManaInfusion.addInfusion(<gregtech:meta_ingot:32028>, <gregtech:meta_dust:23029>, 1200);

@@ -17,13 +17,28 @@ var manasteel = MaterialBuilder(32027, "manasteel")
     .flags("generate_plate")
     .build();
 
-var terrasteel = MaterialBuilder(32028, "terrasteel")
+var livingalloy = MaterialBuilder(32028, "livingalloy")
     .ingot()
     .color(0x32CD32)
-    .flags("generate_plate")
+    .flags("generate_plate", "generate")
     .build();
 
-var terrasteelbase = MaterialBuilder(23029, "terrasteelbase")
+var livingalloybase = MaterialBuilder(23029, "livingalloybase")
     .dust(1)
     .color(0x02CD02)
+    .build();
+
+var livingmixture = MaterialBuilder(23030, "livingmixture")
+    .dust(1)
+    .color(0x000000)
+    .build();
+
+var livingwoodpulp = MaterialBuilder(23031, "livingwoodpulp")
+    .dust(1)
+    .color(0x000000)
+    .build();
+
+var livingrockdust = MaterialBuilder(23032, "livingrockdust")
+    .dust(1)
+    .color(0x000000)
     .build();

@@ -9,7 +9,10 @@ recipes.remove(<extrautils2:teleporter:1>);
 recipes.addShaped(<modularmachinery:itemblueprint>, [[<minecraft:paper>, <gregtech:meta_item_1:127>, null],[<botania:manatablet>, null, null], [null, null, null]]);
 recipes.addShaped(<extrautils2:teleporter:1>, [[<extrautils2:compressedcobblestone:3>, <extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:3>],[<extrautils2:compressedcobblestone:2>, <gregtech:meta_ingot:32028>, <extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:3>, <extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:3>]]);
 recipes.addShaped(<botania:specialflower>.withTag({type: "endoflame"}), [[<botania:petal:12>, <minecraft:coal_block>, <botania:petal:12>],[<botania:livingwood:1>, <minecraft:red_flower:*>, <botania:livingwood:1>], [<botania:livingwood:1>, <botania:livingwood:1>, <botania:livingwood:1>]]);
-recipes.addShapeless(<gregtech:meta_dust:23029>, [<gregtech:meta_dust:32027>, <gregtech:meta_dust:32028>]);
+recipes.addShapeless(<gregtech:meta_dust:23029> * 3, [<gregtech:meta_dust:51>, <gregtech:meta_dust:51>, <gregtech:meta_dust:23030>]);
+recipes.addShapeless(<gregtech:meta_dust:23030>, [<gregtech:meta_dust:23031>, <gregtech:meta_dust:23032>]);
+recipes.addShapeless(<gregtech:meta_dust:23031>, [<gregtech:meta_tool:12>, <botania:livingwood>]);
+recipes.addShapeless(<gregtech:meta_dust:23032>, [<gregtech:meta_tool:12>, <botania:livingrock>]);
 //File End
 recipes.addShaped("terrestrialplate", <botania:terraplate>,
     [[<minecraft:lapis_block>,<minecraft:lapis_block>,<minecraft:lapis_block>],
