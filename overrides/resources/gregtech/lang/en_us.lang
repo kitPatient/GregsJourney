@@ -6,3 +6,6 @@ gregtech.machine.steam_turbine.mv.name=Advanced Mana Turbine
 gregtech.machine.steam_turbine.hv.name=Turbo Mana Turbine
 gregtech.machine.steam_turbine.tooltip=Produces energy from Mana.
 material.infinity=Infinity
+material.manasteel=Manasteel
+material.terrasteel=Terrasteel
+material.terrasteelbase=Terrasteel Base
