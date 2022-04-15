@@ -30,17 +30,7 @@ var livingalloybase = MaterialBuilder(23029, "livingalloybase")
 
 var livingmixture = MaterialBuilder(23030, "livingmixture")
     .dust(1)
-    .color(0x000000)
-    .build();
-
-var livingwoodpulp = MaterialBuilder(23031, "livingwoodpulp")
-    .dust(1)
-    .color(0x000000)
-    .build();
-
-var livingrockdust = MaterialBuilder(23032, "livingrockdust")
-    .dust(1)
-    .color(0x000000)
+    .color(0xb8860b)
     .build();
 
 var terrasteel = MaterialBuilder(23033, "terrasteel")
