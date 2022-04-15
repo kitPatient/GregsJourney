@@ -2,7 +2,6 @@
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_block_core:7>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_block_core:6>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_block_core:8>);
-mods.jei.JEI.removeAndHide();
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_block_moon>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_block_moon:1>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_block_moon:6>);
