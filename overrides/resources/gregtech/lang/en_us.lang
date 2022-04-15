@@ -5,3 +5,4 @@ gregtech.machine.steam_turbine.lv.name=Basic Mana Turbine
 gregtech.machine.steam_turbine.mv.name=Advanced Mana Turbine
 gregtech.machine.steam_turbine.hv.name=Turbo Mana Turbine
 gregtech.machine.steam_turbine.tooltip=Produces energy from Mana.
+material.infinity=Infinity
