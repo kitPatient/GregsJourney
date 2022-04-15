@@ -42,3 +42,8 @@ var livingrockdust = MaterialBuilder(23032, "livingrockdust")
     .dust(1)
     .color(0x000000)
     .build();
+
+var terrasteel = MaterialBuilder(23033, "terrasteel")
+    .ingot()
+    .color(0x4DFF64)
+    .build();
