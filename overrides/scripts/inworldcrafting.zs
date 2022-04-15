@@ -1,1 +1,0 @@
-mods.inworldcrafting.FluidToItem.transform(<gregtech:meta_ingot:32028>, <liquid:crystalized_mana>, [<gregtech:meta_dust:23029>], true);
