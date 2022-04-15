@@ -10,6 +10,8 @@ recipes.addShaped(<modularmachinery:itemblueprint>, [[<minecraft:paper>, <gregte
 recipes.addShaped(<extrautils2:teleporter:1>, [[<extrautils2:compressedcobblestone:3>, <extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:3>],[<extrautils2:compressedcobblestone:2>, <gregtech:meta_ingot:32028>, <extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:3>, <extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:3>]]);
 recipes.addShaped(<botania:specialflower>, [[<botania:petal:12>, <minecraft:coal_block>, <botania:petal:12>],[<botania:livingwood:1>, <minecraft:red_flower:*>, <botania:livingwood:1>], [<botania:livingwood:1>, <botania:livingwood:1>, <botania:livingwood:1>]]);
 recipes.addShaped(<contenttweaker:material_part:11> * 2, [[<contenttweaker:material_part:12>, <contenttweaker:material_part:6>, null],[null, null, null], [null, null, null]]);
+recipes.addShaped(<contenttweaker:material_part:6>, [[null, <botania:manaresource:4>, null],[null, <gregtech:meta_tool:12>, null], [null, null, null]]);
+recipes.addShaped(<contenttweaker:material_part:12>, [[null, <botania:manaresource>, null],[null, <gregtech:meta_tool:12>, null], [null, null, null]]);
 //File End
 recipes.addShaped("terrestrialplate", <botania:terraplate>,
     [[<minecraft:lapis_block>,<minecraft:lapis_block>,<minecraft:lapis_block>],

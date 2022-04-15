@@ -1,0 +1,1221 @@
+{
+  "questSettings:10": {
+    "betterquesting:10": {
+      "pack_name:8": "",
+      "pack_version:3": 0,
+      "party_enable:1": 1,
+      "editmode:1": 0,
+      "hardcore:1": 0,
+      "livesdef:3": 3,
+      "livesmax:3": 10,
+      "home_image:8": "betterquesting:textures/gui/default_title.png",
+      "home_anchor_x:5": 0.5,
+      "home_anchor_y:5": 0.0,
+      "home_offset_x:3": -128,
+      "home_offset_y:3": 0
+    }
+  },
+  "questDatabase:9": {
+    "0:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Welcome ",
+          "desc:8": "§2§lWhat is a greg pack:\n\n§0§0§a§8§6§7§fGregtech is a mod that its goal is to automate everything posible and as you think a greg pack is a modpack made with this mod. In general the goal of those packs is to get some item or liquid using automation, this mods is a little complex and needs patience but the quest book will try to guide.\n\n§2§5§lOther things:\n\n§f§l§l§rThe modpack progression if focused on Gregtech comunity edition unofficial mod, is the mod that this modpack uses as a principal there are some things new like the terminal and glowing machines \nBut is almost the same thing as normal greg\nThe terminal is a machine that you spawned with, needs some parts before you call fully use it but for now it can be use to tell the state of some machines/multiblocks and there is some recepie graphs and also some nice games. \n\n§1§2§3§4§3§b§lHave fun :D\n",
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "NORMAL"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 0
+    },
+    "1:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "start",
+          "desc:8": "No Description",
+          "icon:10": {
+            "id:8": "minecraft:log",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "NORMAL"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 1,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:log",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "logWood"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:leather_helmet",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:leather_chestplate",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:leather_leggings",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "minecraft:leather_boots",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0
+        }
+      },
+      "preRequisites:11": [
+        0
+      ],
+      "questID:3": 1
+    },
+    "2:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "GregTech Tools",
+          "desc:8": "§6§lGregTech Tools\n§f\nIn GregTech there are custom tools like pickaxes, axes and mining hammer, that can be made out almost every material.\n\nEven though there is no vein miner, GregTech Axes include a build-in timber factionality.",
+          "icon:10": {
+            "id:8": "gregtech:meta_tool",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "tag:10": {
+              "GT.ToolStats:10": {
+                "Material:8": "flint"
+              }
+            },
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:flint",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "id:8": "minecraft:flint",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:log",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0
+        }
+      },
+      "preRequisites:11": [
+        1
+      ],
+      "questID:3": 2
+    },
+    "3:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "GregTech Tools",
+          "desc:8": "§3§4§5§6§7§9§a§b§lHammer:§r§2§3§4§4§k§f A crafting tool used to for a lot of early game recipes. It also works as a mining tool for ores to crush them.\n\n§9§l§b§lFile:§r A crafting tool, used to make rods.\n\n§b§lWire Cutter:§r A crafting tool. It is needed to connect wires together. Right-clicking on wires will enable or disable connection to other blocks.\n\n§9§l§b§lSaw:§r Another crafting tool. the tool isn\u0027t needed that often but you can still use it to get §a6§f Planks per Log§r.\n\n§f§l§b§lMortar:§r A crafting tool, to grind various things into dust form.\n\n§b§lWrench:§r A crafting tool. But also a mining tool for GregTech machines. It also has right click functions to double as a Forge §6Wrench for other mods§r. Right Click also allows you to set the output side of GregTech machines. Shift right clicking allows you to rotate GregTech machines.",
+          "icon:10": {
+            "id:8": "gregtech:meta_tool",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "tag:10": {
+              "GT.ToolStats:10": {
+                "Material:8": "iron"
+              }
+            },
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "Damage:2": 6,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "neutronium"
+                }
+              },
+              "OreDict:8": "craftingToolHardHammer"
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "Damage:2": 9,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "neutronium"
+                }
+              },
+              "OreDict:8": "craftingToolFile"
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "Damage:2": 13,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "neutronium"
+                }
+              },
+              "OreDict:8": "craftingToolWireCutter"
+            },
+            "3:10": {
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "neutronium"
+                }
+              },
+              "OreDict:8": "craftingToolSaw"
+            },
+            "4:10": {
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "Damage:2": 12,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "neutronium"
+                }
+              },
+              "OreDict:8": "craftingToolMortar"
+            },
+            "5:10": {
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "neutronium"
+                }
+              },
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        2,
+        4
+      ],
+      "questID:3": 3
+    },
+    "4:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Wrought Iron",
+          "desc:8": "Wrought Iron can be made, early on in a furnace by smelting iron nuggets.",
+          "icon:10": {
+            "id:8": "gregtech:meta_ingot",
+            "Count:3": 1,
+            "Damage:2": 335,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_nugget",
+              "Count:3": 9,
+              "Damage:2": 335,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 4,
+              "Damage:2": 335,
+              "OreDict:8": ""
+            }
+          },
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0
+        }
+      },
+      "preRequisites:11": [
+        2
+      ],
+      "questID:3": 4
+    },
+    "5:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "GT ores",
+          "desc:8": "§l§2§b§lGregTech Ore Veins\n\n§fIn Gregtech CEu the ores have a different generation from the vanila minecraft.\nThey generate in large veins that have 106 ores and usually they are 3 chunks apart from each other and have 3-4 different ores inside them. \nIts a mess in the start to find some ores that you need but it will become more easy as you progress. \n\n\nThe deep dark is a mining dimension that you unlock in MV tier where you can find all the Gregtech ores, the best way is to just put some one block or multiblock miners and let them work\nBut remember to load the chunks before leaving to do other things\n",
+          "icon:10": {
+            "id:8": "gregtech:ore_iron_0",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "Damage:2": 19,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "wrought_iron"
+                }
+              },
+              "OreDict:8": ""
+            }
+          },
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0
+        }
+      },
+      "preRequisites:11": [
+        1
+      ],
+      "questID:3": 5
+    },
+    "6:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "More tools",
+          "desc:8": "§b§lSoft Mallet:§r A tool to pause machines from working with right-click. Right-clicking again resumes working. \n\n§b§lKnife:§r A mediocre weapon, but also, a crafting tool!\n\n§b§lScrewdriver:§r A crafting tool. It is used for special configuration of machines and Covers.\n\n§b§lCrowbar:§r A niche tool to remove Covers from GregTech machines with a right-click.\n\n",
+          "icon:10": {
+            "id:8": "gregtech:meta_tool",
+            "Count:3": 1,
+            "Damage:2": 11,
+            "tag:10": {
+              "GT.ToolStats:10": {
+                "Material:8": "iron"
+              }
+            },
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "Damage:2": 7,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "neutronium"
+                }
+              },
+              "OreDict:8": "craftingToolSoftHammer"
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "Damage:2": 15,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "neutronium"
+                }
+              },
+              "OreDict:8": "craftingToolKnife"
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "neutronium"
+                }
+              },
+              "OreDict:8": "craftingToolScrewdriver"
+            },
+            "3:10": {
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "Damage:2": 10,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "neutronium"
+                }
+              },
+              "OreDict:8": "craftingToolCrowbar"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        3
+      ],
+      "questID:3": 6
+    },
+    "7:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Botania!",
+          "desc:8": "Craft a petal apothecary and expolre the world of botania",
+          "icon:10": {
+            "id:8": "botania:lexicon",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "tag:10": {},
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:altar",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewards:9": {
+            "0:10": {
+              "id:8": "botania:lexicon",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "tag:10": {},
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "botania:fertilizer",
+              "Count:3": 5,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0
+        }
+      },
+      "preRequisites:11": [
+        3
+      ],
+      "questID:3": 7
+    },
+    "8:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Pure!",
+          "desc:8": "WIP",
+          "icon:10": {
+            "id:8": "botania:specialflower",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "tag:10": {
+              "type:8": "puredaisy"
+            },
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:specialflower",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "tag:10": {
+                "type:8": "puredaisy"
+              },
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        7
+      ],
+      "questID:3": 8
+    },
+    "9:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Livingwood",
+          "desc:8": "Livingwood is one of the materials made with the pure daisy",
+          "icon:10": {
+            "id:8": "botania:livingwood",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:livingwood",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "id:8": "botania:livingwood",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "botania:livingrock",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0
+        }
+      },
+      "preRequisites:11": [
+        8
+      ],
+      "questID:3": 9
+    },
+    "10:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Mana transfer",
+          "desc:8": "WIP",
+          "icon:10": {
+            "id:8": "botania:twigwand",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "tag:10": {
+              "color1:3": 13,
+              "color2:3": 13
+            },
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "ignoreNBT:1": 1,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:twigwand",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "tag:10": {
+                "color1:3": 15,
+                "color2:3": 15
+              },
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "botania:spreader",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        9
+      ],
+      "questID:3": 10
+    },
+    "11:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§bManasteel!",
+          "desc:8": "WIP",
+          "icon:10": {
+            "id:8": "botania:manaresource",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:manaresource",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewards:9": {
+            "0:10": {
+              "id:8": "botania:manaresource",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0
+        }
+      },
+      "preRequisites:11": [
+        12,
+        14
+      ],
+      "questID:3": 11
+    },
+    "12:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Mana Production",
+          "desc:8": "WIP",
+          "icon:10": {
+            "id:8": "botania:specialflower",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "tag:10": {
+              "type:8": "endoflame"
+            },
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "CHAIN"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:specialflower",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "tag:10": {
+                "type:8": "endoflame"
+              },
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        7,
+        9
+      ],
+      "questID:3": 12
+    },
+    "13:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Livingrock",
+          "desc:8": "Livingrock is one of the materials mad ewith the pure daisy",
+          "icon:10": {
+            "id:8": "botania:livingrock",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:livingrock",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "id:8": "botania:livingwood",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "botania:livingrock",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0
+        }
+      },
+      "preRequisites:11": [
+        8
+      ],
+      "questID:3": 13
+    },
+    "14:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Mana pool!",
+          "desc:8": "The Mana Pool is used to convert normal materials to §bmana §finfused ones, also mana pools can be used as a mana buffer. ",
+          "icon:10": {
+            "id:8": "botania:pool",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:pool",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        13
+      ],
+      "questID:3": 14
+    },
+    "15:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "New Quest",
+          "desc:8": "No Description",
+          "icon:10": {
+            "id:8": "botania:terraplate",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "NORMAL"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {},
+      "preRequisites:11": [
+        11
+      ],
+      "questID:3": 15
+    }
+  },
+  "questLines:9": {
+    "0:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Botanical Age",
+          "desc:8": "Explore the world and botania",
+          "icon:10": {
+            "id:8": "botania:manaresource",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "visibility:8": "NORMAL",
+          "bg_image:8": "",
+          "bg_size:3": 256
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -288,
+          "y:3": -168,
+          "id:3": 0
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -216,
+          "y:3": -168,
+          "id:3": 1
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -144,
+          "y:3": -168,
+          "id:3": 2
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -84,
+          "y:3": -108,
+          "id:3": 3
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -84,
+          "y:3": -168,
+          "id:3": 4
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -216,
+          "y:3": -120,
+          "id:3": 5
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -24,
+          "y:3": -168,
+          "id:3": 6
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -24,
+          "y:3": -108,
+          "id:3": 7
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -84,
+          "y:3": -60,
+          "id:3": 8
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": -108,
+          "id:3": 9
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": -60,
+          "id:3": 10
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -84,
+          "y:3": 36,
+          "id:3": 11
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -156,
+          "y:3": 0,
+          "id:3": 12
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -24,
+          "y:3": -60,
+          "id:3": 13
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -24,
+          "y:3": -24,
+          "id:3": 14
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -84,
+          "y:3": 84,
+          "id:3": 15
+        }
+      },
+      "lineID:3": 0,
+      "order:3": 0
+    }
+  },
+  "format:8": "2.0.0"
+}
