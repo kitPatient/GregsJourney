@@ -20,3 +20,11 @@ t7cseeds.register();
 var t8cseeds = VanillaFactory.createItem("tier8Seed");
 t8cseeds.maxStackSize = 64;
 t8cseeds.register();
+
+//Living wood pulp
+var living_wood_pulp = VanillaFactory.createItem("living_wood_pulp");
+living_wood_pulp.register();
+
+//living stone dust
+var living_stone_dust = VanillaFactory.createItem("living_stone_dust");
+living_stone_dust.register();
