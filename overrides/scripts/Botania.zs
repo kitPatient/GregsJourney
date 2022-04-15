@@ -1,19 +1,18 @@
 //Remove Original Petal Apothecary Recipe
 recipes.remove(<botania:altar:0>);
 
-//Manasteel Block
-recipes.remove(<botania:storage>);
 //Manasteel Ingot
-recipes.remove(<botania:manaresource>);
+mods.jei.JEI.removeAndHide(<botania:manaresource>);
 //Manasteel Nugget
-recipes.remove(<botania:manaresource:17>);
+mods.jei.JEI.removeAndHide(<botania:manaresource:17>);
+//Manasteel Block
+mods.jei.JEI.removeAndHide(<botania:storage>);
 //Terrasteel Ingot
-recipes.remove(<botania:manaresource:4>);
+mods.jei.JEI.removeAndHide(<botania:manaresource:4>);
 //Terrasteel Nugget
-recipes.remove(<botania:storage:1>);
-
-
-
+mods.jei.JEI.removeAndHide(<botania:manaresource:18>);
+//Terrasteel Block
+mods.jei.JEI.removeAndHide(<botania:storage:1>);
 
 //Asign Common Resources
 val cobblestone = <minecraft:cobblestone>;

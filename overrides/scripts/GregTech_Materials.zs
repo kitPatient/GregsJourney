@@ -13,7 +13,7 @@ var infinity = MaterialBuilder(32026, "infinity")
 
 var manasteel = MaterialBuilder(32027, "manasteel")
     .ingot()
-    .color(0x058ae8)
+    .color(0x0b4bb3)
     .flags("generate_plate")
     .build();
 

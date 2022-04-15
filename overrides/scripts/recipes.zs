@@ -15,5 +15,5 @@ recipes.addShaped(<contenttweaker:material_part:12>, [[null, <botania:manaresour
 //File End
 recipes.addShaped("terrestrialplate", <botania:terraplate>,
     [[<minecraft:lapis_block>,<minecraft:lapis_block>,<minecraft:lapis_block>],
-    [<botania:manaresource:2>,<gt:meta_block_compressed_2001:11>,<botania:manaresource:2>],
+    [<botania:manaresource:2>,<gregtech:meta_block_compressed_2001:11>,<botania:manaresource:2>],
     [<gregtech:meta_block_compressed_19:10>,<botania:manaresource:1>,<gregtech:meta_block_compressed_19:10>]]);
