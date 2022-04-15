@@ -56,7 +56,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "start",
-          "desc:8": "No Description",
+          "desc:8": "Welcome to the world ",
           "icon:10": {
             "id:8": "minecraft:log",
             "Count:3": 1,
@@ -544,7 +544,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Botania!",
-          "desc:8": "Craft a petal apothecary and expolre the world of botania",
+          "desc:8": "Craft a petal apothecary and expolre the world of botania.\n\nFill the apothecary with water, drop the crafting materials inside it and drop 1 seed to finish the recipe.",
           "icon:10": {
             "id:8": "botania:lexicon",
             "Count:3": 1,
@@ -616,7 +616,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Pure!",
-          "desc:8": "WIP",
+          "desc:8": "Place blocks around the pure daisy, after a bit of time they will change into another form.\n\nYou can check jei for the recipes.",
           "icon:10": {
             "id:8": "botania:specialflower",
             "Count:3": 1,
@@ -743,7 +743,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Mana transfer",
-          "desc:8": "WIP",
+          "desc:8": "By shift+right clicking an endoflame while using the bind mode on the wand of the forest, and then right clicking a mana spreader and using that same technique you can bind the spreader to a mana pool which will slowly fill it up if §bmana§f is produced by the flower.",
           "icon:10": {
             "id:8": "botania:twigwand",
             "Count:3": 1,
@@ -807,10 +807,10 @@
     "11:10": {
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "§bManasteel!",
-          "desc:8": "WIP",
+          "name:8": "Living Alloy",
+          "desc:8": "The living alloy is a matirial made from iron dust, living mixture and _____ which is used in crafting the first 2 gregtech multiblocks.",
           "icon:10": {
-            "id:8": "botania:manaresource",
+            "id:8": "minecraft:nether_star",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -830,42 +830,10 @@
           "visibility:8": "ALWAYS"
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "ignoreNBT:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "autoConsume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "botania:manaresource",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval",
-          "index:3": 0
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "rewards:9": {
-            "0:10": {
-              "id:8": "botania:manaresource",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0
-        }
-      },
+      "tasks:9": {},
+      "rewards:9": {},
       "preRequisites:11": [
-        12,
-        14
+        15
       ],
       "questID:3": 11
     },
@@ -873,7 +841,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Mana Production",
-          "desc:8": "WIP",
+          "desc:8": "The endoflame consumes any fuel dropped in a 7×7×7 area around it, then produces 3 §bMana§f every 2 ticks for half of the fuel\u0027s burn time. For example, Charcoal is burned for 800 ticks (40 seconds), producing 1200 §bMana§f. ",
           "icon:10": {
             "id:8": "botania:specialflower",
             "Count:3": 1,
@@ -922,7 +890,6 @@
       },
       "rewards:9": {},
       "preRequisites:11": [
-        7,
         9
       ],
       "questID:3": 12
@@ -1000,8 +967,8 @@
     "14:10": {
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Mana pool!",
-          "desc:8": "The Mana Pool is used to convert normal materials to §bmana §finfused ones, also mana pools can be used as a mana buffer. ",
+          "name:8": "Mana Pool",
+          "desc:8": "The Mana Pool can be used as a mana buffer, or if enough mana is inside it you can drop\nan item in it to infuse it with mana.",
           "icon:10": {
             "id:8": "botania:pool",
             "Count:3": 1,
@@ -1051,10 +1018,10 @@
     "15:10": {
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "New Quest",
-          "desc:8": "No Description",
+          "name:8": "Living Mixture ",
+          "desc:8": "The Living mixture is a mix between crushed livingrock and livingwood pulp.",
           "icon:10": {
-            "id:8": "botania:terraplate",
+            "id:8": "minecraft:nether_star",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -1071,15 +1038,367 @@
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {},
       "rewards:9": {},
       "preRequisites:11": [
-        11
+        9,
+        13
       ],
       "questID:3": 15
+    },
+    "16:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Coke Oven",
+          "desc:8": "WIP",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1017,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1017,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:metal_casing",
+              "Count:3": 25,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        11
+      ],
+      "questID:3": 16
+    },
+    "17:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Primitive Blast Furnace",
+          "desc:8": "The primitive blast furnace (PBF), takes coal, coal coke and charcoal and turns iron or wrought iron into steel, depending on the materials you use the time it takes to produce steel changes with the lowest being coal coke and wrought iron with 30 sec. per steel",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1000,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1000,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:metal_casing",
+              "Count:3": 32,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [
+        11
+      ],
+      "questID:3": 17
+    },
+    "18:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§7Steel!",
+          "desc:8": "Steel is used to make Manasteel",
+          "icon:10": {
+            "id:8": "gregtech:meta_ingot",
+            "Count:3": 4,
+            "Damage:2": 324,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 4,
+              "Damage:2": 324,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 2,
+              "Damage:2": 324,
+              "OreDict:8": ""
+            }
+          },
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0
+        }
+      },
+      "preRequisites:11": [
+        16,
+        17
+      ],
+      "questID:3": 18
+    },
+    "19:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "§bMana Steel!",
+          "desc:8": "§b§fWith§b manasteel§f you can start your journey into the world of Gregtech CEu.",
+          "icon:10": {
+            "id:8": "gregtech:meta_ingot",
+            "Count:3": 1,
+            "Damage:2": 32027,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 4,
+              "Damage:2": 32027,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 4,
+              "Damage:2": 32027,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 6,
+              "Damage:2": 324,
+              "OreDict:8": ""
+            }
+          },
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0
+        }
+      },
+      "preRequisites:11": [
+        18,
+        12,
+        14
+      ],
+      "questID:3": 19
+    },
+    "20:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Blast Furnace Madness",
+          "desc:8": "WIP",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1000,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 3,
+              "Damage:2": 1000,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 8,
+              "Damage:2": 324,
+              "OreDict:8": ""
+            }
+          },
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0
+        }
+      },
+      "preRequisites:11": [
+        17
+      ],
+      "questID:3": 20
+    },
+    "21:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "GregTech mutliblocks",
+          "desc:8": "Gregtech CEu multiblock work something different\nYou can share 2 or more multiblock and that\u0027s a way to save resources.\nBut what is sharing?\nWhen you share a multiblock some blocks are shared for example by putting 1 primitive blast furnace and second one right next to it BUT removing the wall that is touching.(You check JEI to see what blocks can be wall shared)\n\nMultiblock chunk problems:\n§c§fDon\u0027t put the multiblocks in chunk borders because they might§4 §lcorrupt§f the world\nAlways Check the chunk borders before making a multiblock. (You can check it by pressing f9 2 times)",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1001,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "taskID:8": "bq_standard:checkbox",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {},
+      "preRequisites:11": [],
+      "questID:3": 21
     }
   },
   "questLines:9": {
@@ -1181,14 +1500,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
-          "y:3": 36,
+          "y:3": 24,
           "id:3": 11
         },
         "12:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -156,
-          "y:3": 0,
+          "y:3": -12,
           "id:3": 12
         },
         "13:10": {
@@ -1202,15 +1521,57 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -24,
-          "y:3": -24,
+          "y:3": -12,
           "id:3": 14
         },
         "15:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
-          "y:3": 84,
+          "y:3": -24,
           "id:3": 15
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -132,
+          "y:3": 24,
+          "id:3": 16
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": 24,
+          "id:3": 17
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -84,
+          "y:3": 60,
+          "id:3": 18
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -84,
+          "y:3": 108,
+          "id:3": 19
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 24,
+          "id:3": 20
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -180,
+          "y:3": 24,
+          "id:3": 21
         }
       },
       "lineID:3": 0,
