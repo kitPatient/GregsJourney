@@ -4,7 +4,7 @@
       "pack_name:8": "",
       "pack_version:3": 0,
       "party_enable:1": 1,
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "livesdef:3": 3,
       "livesmax:3": 10,
@@ -268,7 +268,7 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "consume:1": 0,
           "groupDetect:1": 0,
           "autoConsume:1": 0,
@@ -279,10 +279,10 @@
               "Damage:2": 6,
               "tag:10": {
                 "GT.ToolStats:10": {
-                  "Material:8": "neutronium"
+                  "Material:8": "iron"
                 }
               },
-              "OreDict:8": "craftingToolHardHammer"
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "gregtech:meta_tool",
@@ -290,10 +290,10 @@
               "Damage:2": 9,
               "tag:10": {
                 "GT.ToolStats:10": {
-                  "Material:8": "neutronium"
+                  "Material:8": "iron"
                 }
               },
-              "OreDict:8": "craftingToolFile"
+              "OreDict:8": ""
             },
             "2:10": {
               "id:8": "gregtech:meta_tool",
@@ -301,10 +301,10 @@
               "Damage:2": 13,
               "tag:10": {
                 "GT.ToolStats:10": {
-                  "Material:8": "neutronium"
+                  "Material:8": "iron"
                 }
               },
-              "OreDict:8": "craftingToolWireCutter"
+              "OreDict:8": ""
             },
             "3:10": {
               "id:8": "gregtech:meta_tool",
@@ -312,10 +312,10 @@
               "Damage:2": 5,
               "tag:10": {
                 "GT.ToolStats:10": {
-                  "Material:8": "neutronium"
+                  "Material:8": "iron"
                 }
               },
-              "OreDict:8": "craftingToolSaw"
+              "OreDict:8": ""
             },
             "4:10": {
               "id:8": "gregtech:meta_tool",
@@ -323,10 +323,10 @@
               "Damage:2": 12,
               "tag:10": {
                 "GT.ToolStats:10": {
-                  "Material:8": "neutronium"
+                  "Material:8": "iron"
                 }
               },
-              "OreDict:8": "craftingToolMortar"
+              "OreDict:8": ""
             },
             "5:10": {
               "id:8": "gregtech:meta_tool",
@@ -334,7 +334,18 @@
               "Damage:2": 8,
               "tag:10": {
                 "GT.ToolStats:10": {
-                  "Material:8": "neutronium"
+                  "Material:8": "iron"
+                }
+              },
+              "OreDict:8": ""
+            },
+            "6:10": {
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 1,
+              "Damage:2": 11,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "iron"
                 }
               },
               "OreDict:8": ""
