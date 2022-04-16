@@ -6,7 +6,7 @@ recipes.remove(<extrautils2:teleporter:1>);
 
 //Don't touch me!
 //#Add
-recipes.addShaped(<modularmachinery:itemblueprint>, [[<minecraft:paper>, <gregtech:meta_item_1:127>, null],[<botania:manatablet>, null, null], [null, null, null]]);
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_crystaliser"}), [[<minecraft:paper>, <gregtech:meta_item_1:127>, null],[<botania:manatablet>, null, null], [null, null, null]]);
 recipes.addShaped(<extrautils2:teleporter:1>, [[<extrautils2:compressedcobblestone:3>, <extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:3>],[<extrautils2:compressedcobblestone:2>, <gregtech:meta_ingot:23033>, <extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:3>, <extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:3>]]);
 recipes.addShapeless(<gregtech:meta_dust:23029> * 3, [<gregtech:meta_dust:51>, <gregtech:meta_dust:51>, <gregtech:meta_dust:23030>]);
 //File End
