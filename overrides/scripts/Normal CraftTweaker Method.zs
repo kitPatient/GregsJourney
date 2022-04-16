@@ -1,11 +1,11 @@
 //Recepie for Living wood pulp
-recipes.addShapeless(<contenttweaker:living_wood_pulp>, [<gregtech:meta_tool:12>, <botania:livingwood>]);
+recipes.addShapeless(<contenttweaker:living_wood_pulp> * 2, [<gregtech:meta_tool:12>, <botania:livingwood>]);
 
 //Recepie for Living stone dust
-recipes.addShapeless(<contenttweaker:living_stone_dust>, [<gregtech:meta_tool:12>, <botania:livingrock>]);
+recipes.addShapeless(<contenttweaker:living_stone_dust> * 2, [<gregtech:meta_tool:12>, <botania:livingrock>]);
 
 //Recepie for the Living mixture Dust
-recipes.addShapeless(<gregtech:meta_dust:23030>, [<contenttweaker:living_wood_pulp>, <contenttweaker:living_stone_dust>]);
+recipes.addShapeless(<gregtech:meta_dust:23030> * 2, [<contenttweaker:living_wood_pulp>, <contenttweaker:living_stone_dust>]);
 
 //Recepie for Fireclay Dust
 recipes.addShapeless(<gregtech:meta_dust:2525>, [<gregtech:meta_dust:32028>, <gregtech:meta_dust:23030>]);
