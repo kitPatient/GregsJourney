@@ -30,3 +30,30 @@ recipes.addShaped("Coke Brick", Brick,
   [B,C,B],
   [B,B,B]]);
 
+//Removing The LV machine casing recepie 
+recipes.removeShaped(<gregtech:machine_casing:1>,[[<gregtech:meta_plate:324>,<gregtech:meta_plate:324>,<gregtech:meta_plate:324>],[<gregtech:meta_plate:324>,<gregtech:meta_tool:8>,<gregtech:meta_plate:324>],[<gregtech:meta_plate:324>,<gregtech:meta_plate:324>,<gregtech:meta_plate:324>]]);
+
+//Adding the LV recepie With ManaSteel
+val D = <gregtech:meta_plate:32027>;
+val E = <gregtech:meta_tool:8>;
+val LvCASING = <gregtech:machine_casing:1>;
+
+recipes.addShaped("Lv Machine Casing", LvCASING,
+ [[D,D,D],
+  [D,E,D],
+  [D,D,D]]);
+
+//Removing the LV machine Hull recepie
+recipes.removeByRecipeName("gregtech:gregtech.machine.hull.lv");
+
+//Adding the LV Machine Hull recepie
+val J = <gregtech:meta_plate:335>;
+val H = <gregtech:cable_single:112>;
+val I = <gregtech:machine_casing:1>;
+val Lvhull = <gregtech:machine:986>;
+
+recipes.addShaped("Lv Machine hull", Lvhull,
+ [[null,null,null],
+  [J,D,J],
+  [H,I,H]]);
+
