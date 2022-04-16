@@ -20,11 +20,16 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Welcome ",
-          "desc:8": "§2§lWhat is a greg pack:\n\n§0§0§a§8§6§7§fGregtech is a mod that its goal is to automate everything posible and as you think a greg pack is a modpack made with this mod. In general the goal of those packs is to get some item or liquid using automation, this mods is a little complex and needs patience but the quest book will try to guide.\n\n§2§5§lOther things:\n\n§f§l§l§rThe modpack progression if focused on Gregtech comunity edition unofficial mod, is the mod that this modpack uses as a principal there are some things new like the terminal and glowing machines \nBut is almost the same thing as normal greg\nThe terminal is a machine that you spawned with, needs some parts before you call fully use it but for now it can be use to tell the state of some machines/multiblocks and there is some recepie graphs and also some nice games. \n\n§1§2§3§4§3§b§lHave fun :D\n",
+          "desc:8": "§2§lWhat is a greg pack:\n\n§0§0§a§8§6§7§fGregtech is a mod that its goal is to automate everything posible and as you think a greg pack is a modpack made with this mod. In general the goal of those packs is to get some item or liquid using automation, this mods is a little more complex and needs patience but the quest book will try to guide you.\n\n§2§5§lOther things:\n\n§f§l§l§rThe modpack progression is focused on GTCE Unoffical mod, is the mod that this modpack uses as a principal there are some things new like the terminal and glowing machines \nBut is almost the same thing as normal greg\nThe terminal is a machine that you spawned with, needs some parts before you call fully use it but for now it can be use to tell the state of some machines/multiblocks and there is some recepie graphs and also some nice games.\n(The modpack introduction may change)\n§1§2§3§4§3§b§lHave fun :D\n",
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "botania:lexicon",
             "Count:3": 1,
             "Damage:2": 0,
+            "tag:10": {
+              "knowledge.minecraft:1": 1,
+              "knowledge.relic:1": 1,
+              "knowledge.alfheim:1": 1
+            },
             "OreDict:8": ""
           },
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -39,7 +44,7 @@
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -55,7 +60,7 @@
     "1:10": {
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "start",
+          "name:8": "Punching wood !",
           "desc:8": "Welcome to the world ",
           "icon:10": {
             "id:8": "minecraft:log",
@@ -75,7 +80,7 @@
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "NORMAL"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -123,6 +128,26 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "gregtech:meta_tool",
+              "Count:3": 4,
+              "Damage:2": 6,
+              "tag:10": {
+                "GT.ToolStats:10": {
+                  "Material:8": "diamond"
+                }
+              },
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 467,
+              "tag:10": {
+                "Charge:4": 1600000
+              },
+              "OreDict:8": ""
             }
           },
           "rewardID:8": "bq_standard:item",
@@ -138,7 +163,7 @@
       "properties:10": {
         "betterquesting:10": {
           "name:8": "GregTech Tools",
-          "desc:8": "§6§lGregTech Tools\n§f\nIn GregTech there are custom tools like pickaxes, axes and mining hammer, that can be made out almost every material.\n\nEven though there is no vein miner, GregTech Axes include a build-in timber factionality.",
+          "desc:8": "§6§lGregTech Tools\n§f\nIn GregTech there are custom tools like pickaxes, axes and mining hammer, that can be made out almost every material.\n\nEven though there is no vein miner, GregTech Axes include a build-in timber fonctionality.",
           "icon:10": {
             "id:8": "gregtech:meta_tool",
             "Count:3": 1,
@@ -321,7 +346,6 @@
       },
       "rewards:9": {},
       "preRequisites:11": [
-        2,
         4
       ],
       "questID:3": 3
@@ -665,81 +689,11 @@
       },
       "rewards:9": {},
       "preRequisites:11": [
-        7
+        20
       ],
       "questID:3": 8
     },
     "9:10": {
-      "properties:10": {
-        "betterquesting:10": {
-          "name:8": "Livingwood",
-          "desc:8": "Livingwood is one of the materials made with the pure daisy",
-          "icon:10": {
-            "id:8": "botania:livingwood",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "questlogic:8": "AND",
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "repeat_relative:1": 1,
-          "lockedprogress:1": 0,
-          "autoclaim:1": 0,
-          "issilent:1": 0,
-          "ismain:1": 0,
-          "globalshare:1": 0,
-          "simultaneous:1": 0,
-          "visibility:8": "ALWAYS"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "ignoreNBT:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "autoConsume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "botania:livingwood",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval",
-          "index:3": 0
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "choices:9": {
-            "0:10": {
-              "id:8": "botania:livingwood",
-              "Count:3": 8,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "botania:livingrock",
-              "Count:3": 8,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "rewardID:8": "bq_standard:choice",
-          "index:3": 0
-        }
-      },
-      "preRequisites:11": [
-        8
-      ],
-      "questID:3": 9
-    },
-    "10:10": {
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Mana transfer",
@@ -800,19 +754,19 @@
       },
       "rewards:9": {},
       "preRequisites:11": [
-        9
+        12
       ],
       "questID:3": 10
     },
-    "11:10": {
+    "10:10": {
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Living Alloy",
-          "desc:8": "The living alloy is a matirial made from iron dust, living mixture and _____ which is used in crafting the first 2 gregtech multiblocks.",
+          "desc:8": "The living alloy is a material made from iron dust and living mixture which is used in the crafting of the first 2 gregtech multiblocks.",
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "gregtech:meta_dust",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 23029,
             "OreDict:8": ""
           },
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -830,14 +784,44 @@
           "visibility:8": "ALWAYS"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_dust",
+              "Count:3": 2,
+              "Damage:2": 51,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_dust",
+              "Count:3": 1,
+              "Damage:2": 23030,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_dust",
+              "Count:3": 3,
+              "Damage:2": 23029,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
       "rewards:9": {},
       "preRequisites:11": [
         15
       ],
       "questID:3": 11
     },
-    "12:10": {
+    "11:10": {
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Mana Production",
@@ -863,7 +847,7 @@
           "ismain:1": 0,
           "globalshare:1": 0,
           "simultaneous:1": 0,
-          "visibility:8": "CHAIN"
+          "visibility:8": "ALWAYS"
         }
       },
       "tasks:9": {
@@ -890,11 +874,11 @@
       },
       "rewards:9": {},
       "preRequisites:11": [
-        9
+        20
       ],
       "questID:3": 12
     },
-    "13:10": {
+    "12:10": {
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Livingrock",
@@ -964,7 +948,7 @@
       ],
       "questID:3": 13
     },
-    "14:10": {
+    "13:10": {
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Mana Pool",
@@ -1015,15 +999,15 @@
       ],
       "questID:3": 14
     },
-    "15:10": {
+    "14:10": {
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Living Mixture ",
           "desc:8": "The Living mixture is a mix between crushed livingrock and livingwood pulp.",
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "gregtech:meta_dust",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 23030,
             "OreDict:8": ""
           },
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -1041,15 +1025,63 @@
           "visibility:8": "ALWAYS"
         }
       },
-      "tasks:9": {},
-      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:living_wood_pulp",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "contenttweaker:living_stone_dust",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:meta_dust",
+              "Count:3": 2,
+              "Damage:2": 23030,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "id:8": "botania:livingwood",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "botania:livingrock",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0
+        }
+      },
       "preRequisites:11": [
-        9,
         13
       ],
       "questID:3": 15
     },
-    "16:10": {
+    "15:10": {
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Coke Oven",
@@ -1106,7 +1138,7 @@
       ],
       "questID:3": 16
     },
-    "17:10": {
+    "16:10": {
       "properties:10": {
         "betterquesting:10": {
           "name:8": "Primitive Blast Furnace",
@@ -1159,11 +1191,12 @@
       },
       "rewards:9": {},
       "preRequisites:11": [
-        11
+        11,
+        16
       ],
       "questID:3": 17
     },
-    "18:10": {
+    "17:10": {
       "properties:10": {
         "betterquesting:10": {
           "name:8": "§7Steel!",
@@ -1223,12 +1256,11 @@
         }
       },
       "preRequisites:11": [
-        16,
         17
       ],
       "questID:3": 18
     },
-    "19:10": {
+    "18:10": {
       "properties:10": {
         "betterquesting:10": {
           "name:8": "§bMana Steel!",
@@ -1295,20 +1327,20 @@
       },
       "preRequisites:11": [
         18,
-        12,
-        14
+        17,
+        22
       ],
       "questID:3": 19
     },
-    "20:10": {
+    "19:10": {
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "Blast Furnace Madness",
-          "desc:8": "WIP",
+          "name:8": "Petal Apothecary",
+          "desc:8": "No Description",
           "icon:10": {
-            "id:8": "gregtech:machine",
+            "id:8": "botania:altar",
             "Count:3": 1,
-            "Damage:2": 1000,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -1335,9 +1367,15 @@
           "autoConsume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "gregtech:machine",
-              "Count:3": 3,
-              "Damage:2": 1000,
+              "id:8": "botania:altar",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:wheat_seeds",
+              "Count:3": 2,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
@@ -1345,34 +1383,21 @@
           "index:3": 0
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewards:9": {
-            "0:10": {
-              "id:8": "gregtech:meta_ingot",
-              "Count:3": 8,
-              "Damage:2": 324,
-              "OreDict:8": ""
-            }
-          },
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0
-        }
-      },
+      "rewards:9": {},
       "preRequisites:11": [
-        17
+        3
       ],
       "questID:3": 20
     },
-    "21:10": {
+    "20:10": {
       "properties:10": {
         "betterquesting:10": {
-          "name:8": "GregTech mutliblocks",
-          "desc:8": "Gregtech CEu multiblock work something different\nYou can share 2 or more multiblock and that\u0027s a way to save resources.\nBut what is sharing?\nWhen you share a multiblock some blocks are shared for example by putting 1 primitive blast furnace and second one right next to it BUT removing the wall that is touching.(You check JEI to see what blocks can be wall shared)\n\nMultiblock chunk problems:\n§c§fDon\u0027t put the multiblocks in chunk borders because they might§4 §lcorrupt§f the world\nAlways Check the chunk borders before making a multiblock. (You can check it by pressing f9 2 times)",
+          "name:8": "Iron",
+          "desc:8": "Like every modpack, you will need iron.",
           "icon:10": {
-            "id:8": "gregtech:machine",
+            "id:8": "minecraft:iron_ingot",
             "Count:3": 1,
-            "Damage:2": 1001,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "snd_complete:8": "minecraft:entity.player.levelup",
@@ -1392,13 +1417,93 @@
       },
       "tasks:9": {
         "0:10": {
-          "taskID:8": "bq_standard:checkbox",
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:ore_iron_0",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
+          "index:3": 0
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0
+        }
+      },
+      "preRequisites:11": [
+        2
+      ],
+      "questID:3": 21
+    },
+    "21:10": {
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Living Alloy ingot ",
+          "desc:8": "No Description",
+          "icon:10": {
+            "id:8": "gregtech:meta_ingot",
+            "Count:3": 1,
+            "Damage:2": 32028,
+            "OreDict:8": ""
+          },
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "questlogic:8": "AND",
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "repeat_relative:1": 1,
+          "lockedprogress:1": 0,
+          "autoclaim:1": 0,
+          "issilent:1": 0,
+          "ismain:1": 0,
+          "globalshare:1": 0,
+          "simultaneous:1": 0,
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "autoConsume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 1,
+              "Damage:2": 32028,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval",
           "index:3": 0
         }
       },
       "rewards:9": {},
-      "preRequisites:11": [],
-      "questID:3": 21
+      "preRequisites:11": [
+        14,
+        11
+      ],
+      "questID:3": 22
     }
   },
   "questLines:9": {
@@ -1413,7 +1518,7 @@
             "Damage:2": 2,
             "OreDict:8": ""
           },
-          "visibility:8": "NORMAL",
+          "visibility:8": "ALWAYS",
           "bg_image:8": "",
           "bg_size:3": 256
         }
@@ -1429,149 +1534,149 @@
         "1:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -216,
+          "x:3": -240,
           "y:3": -168,
           "id:3": 1
         },
         "2:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -144,
+          "x:3": -180,
           "y:3": -168,
           "id:3": 2
         },
         "3:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": -108,
+          "x:3": -60,
+          "y:3": -120,
           "id:3": 3
         },
         "4:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -84,
+          "x:3": -60,
           "y:3": -168,
           "id:3": 4
         },
         "5:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -216,
+          "x:3": -240,
           "y:3": -120,
           "id:3": 5
         },
         "6:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -24,
-          "y:3": -168,
+          "x:3": -12,
+          "y:3": -120,
           "id:3": 6
         },
         "7:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -24,
-          "y:3": -108,
+          "x:3": -60,
+          "y:3": -72,
           "id:3": 7
         },
         "8:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": -60,
+          "x:3": -96,
+          "y:3": 12,
           "id:3": 8
         },
         "9:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": -108,
-          "id:3": 9
+          "x:3": -12,
+          "y:3": 60,
+          "id:3": 10
         },
         "10:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": -60,
-          "id:3": 10
+          "x:3": -60,
+          "y:3": 108,
+          "id:3": 11
         },
         "11:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": 24,
-          "id:3": 11
+          "x:3": -24,
+          "y:3": 12,
+          "id:3": 12
         },
         "12:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -156,
-          "y:3": -12,
-          "id:3": 12
+          "x:3": -108,
+          "y:3": 60,
+          "id:3": 13
         },
         "13:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -24,
-          "y:3": -60,
-          "id:3": 13
+          "x:3": -120,
+          "y:3": 108,
+          "id:3": 14
         },
         "14:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -24,
-          "y:3": -12,
-          "id:3": 14
+          "x:3": -60,
+          "y:3": 60,
+          "id:3": 15
         },
         "15:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": -24,
-          "id:3": 15
+          "x:3": 0,
+          "y:3": 108,
+          "id:3": 16
         },
         "16:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -132,
-          "y:3": 24,
-          "id:3": 16
+          "x:3": -12,
+          "y:3": 156,
+          "id:3": 17
         },
         "17:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -36,
-          "y:3": 24,
-          "id:3": 17
+          "x:3": -60,
+          "y:3": 156,
+          "id:3": 18
         },
         "18:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": 60,
-          "id:3": 18
+          "x:3": -60,
+          "y:3": 216,
+          "id:3": 19
         },
         "19:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -84,
-          "y:3": 108,
-          "id:3": 19
+          "x:3": -60,
+          "y:3": -24,
+          "id:3": 20
         },
         "20:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 0,
-          "y:3": 24,
-          "id:3": 20
+          "x:3": -120,
+          "y:3": -168,
+          "id:3": 21
         },
         "21:10": {
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -180,
-          "y:3": 24,
-          "id:3": 21
+          "x:3": -108,
+          "y:3": 156,
+          "id:3": 22
         }
       },
       "lineID:3": 0,
