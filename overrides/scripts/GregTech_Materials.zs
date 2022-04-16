@@ -20,7 +20,7 @@ var manasteel = MaterialBuilder(32027, "manasteel")
 var livingalloy = MaterialBuilder(32028, "livingalloy")
     .ingot()
     .color(0x32CD32)
-    .flags("generate_plate", "generate")
+    .flags("generate_plate","generate_rod")
     .build();
 
 var livingalloybase = MaterialBuilder(23029, "livingalloybase")
