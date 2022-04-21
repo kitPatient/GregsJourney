@@ -14,7 +14,7 @@ var infinity = MaterialBuilder(32026, "infinity")
 var manasteel = MaterialBuilder(32027, "manasteel")
     .ingot()
     .color(0x03bfd3)
-    .flags("generate_plate")
+    .flags("generate_plate","generate_rod","generate_small_gear")
     .build();
 
 var livingalloy = MaterialBuilder(32028, "livingalloy")
