@@ -123,3 +123,17 @@ recipes.addShaped("LVrobotarmwithmanasteel", manarobotarm,
  [[H,H,H],
   [U,T,U],
   [W,X,T]]);
+
+//Retrurning the Glass recipe
+furnace.addRecipe(<minecraft:glass>, <minecraft:sand>);
+
+//Adding a wooden plank recipe 
+val AA = <gregtech:meta_tool:5>;
+val AB = <minecraft:planks>;
+val WP = <gregtech:meta_plate:1617>;
+
+recipes.addShaped("woodplackstime", WP,
+ [[null,null,null],
+  [null,AB,null],
+  [null,AA,null]]);
+
