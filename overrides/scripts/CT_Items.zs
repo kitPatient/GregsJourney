@@ -28,3 +28,19 @@ living_wood_pulp.register();
 //living stone dust
 var living_stone_dust = VanillaFactory.createItem("living_stone_dust");
 living_stone_dust.register();
+
+//Manasteel casing
+var Manasteelcasing = VanillaFactory.createBlock("Manasteel_casing", <blockmaterial:iron>);
+Manasteelcasing.setBlockHardness(5.0);
+Manasteelcasing.setToolClass("pickaxe");
+Manasteelcasing.setToolLevel(3);
+Manasteelcasing.setBlockSoundType(<soundtype:metal>);
+Manasteelcasing.register();
+
+//Endoflame/manasteel casing 
+var endomanacasing = VanillaFactory.createBlock("EndoManasteel_casing", <blockmaterial:iron>);
+endomanacasing.setBlockHardness(5.0);
+endomanacasing.setToolClass("pickaxe");
+endomanacasing.setToolLevel(3);
+endomanacasing.setBlockSoundType(<soundtype:metal>);
+endomanacasing.register();
