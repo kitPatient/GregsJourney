@@ -1,4 +1,5 @@
 .DS_Store
 buildOut/
 *.rar
-overrides/mods/OptiFine_1.12.2.jar
+GregPack.zip
+overrides/mods/OPTIFINE.jar
